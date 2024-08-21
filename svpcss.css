@@ -1,0 +1,80 @@
+/** SVP CSS Extras **/
+/** <uniquifier>: Use a unique and descriptive class name
+    <weight>: Use a value from 400 to 900
+**/
+:root{
+    --rit-orange:#f76902;
+    --rit-lightgray:#d0d3d4;
+    --rit-medgray:#a2aaad;
+    --rit-darkgray:#7c878e;
+    --rit-accgreen:#84bd00;
+    --rit-accpurple:#7d55c7;
+    --rit-accyellow:#f6b300;
+    --rit-accblue:#009cbd;
+}
+.orbitron-fancy {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;;
+  font-style: normal;
+}
+/** Most of these background colors are not used, but available **/
+.rit-orange-bg{
+background-color: var(--rit-orange);
+}
+.rit-lightgray-bg{
+    background-color: var(--rit-lightgray);
+}
+.rit-medgray-bg{
+    background-color: var(--rit-medgray);
+}
+.rit-darkgray-bg{
+    background-color: var(--rit-darkgray);
+}
+.rit-accblue-bg{
+    background-color: var(--rit-accblue);
+}
+.rit-accpurple-bg{
+    background-color: var(--rit-accpurple);
+}
+.displaynone{
+    display:none !important;
+}
+.body-rit-orange {
+    background-color: var(--rit-orange);
+    color: #f5f5f5;
+}
+h1{
+    margin-left:50px;
+}
+footer{
+    position: relative;
+    height:120px;
+    background-color: aqua;
+}
+.fix-top{
+    z-index: 9999; 
+    top: 0; 
+    height: 300px; 
+}
+.bg-grad-black-trans{
+    background: linear-gradient(180deg, rgb(0, 0, 0), transparent);
+}
+.bg-grad-yellow-trans{
+    background: linear-gradient(180deg, var(--rit-accyellow), transparent);
+}
+/**
+   Task 4 - We can use CSS adjust the position of the instruction block 
+  and change its appearance for the better.
+   
+**/
+#instruction{
+    margin-inline: auto;
+    width: 50%;
+    color:white;
+    background-color: var(--rit-darkgray);
+    border: 5px dashed purple;
+}
+.mb-25{
+    margin-bottom:25px;
+}

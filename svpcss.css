@@ -65,8 +65,12 @@ footer{
 }
 /**
    Task 4 - We can use CSS adjust the position of the instruction block 
-  and change its appearance for the better.
-   
+  and change its appearance for the better. Here are some hints: 
+    - change the background color, var(--rit-accgreen);
+    - add a bottom margin value of, 15px;
+    - add a top padding value of, 15px;
+    - add rounded borders (radius) of, 10px;
+    - change the border: property value to, '5px solid darkgreen' (without quotes)
 **/
 #instruction{
     margin-inline: auto;

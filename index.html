@@ -47,7 +47,7 @@
                   The icon file name is: Roaring_Tiger_rgb.svg
                   The "alt text" is: RIT tiger spirit mark.
                 -->
-                
+                <img src="Roaring_Tiger_rgb.svg" alt="RIT Tiger Spirit Mark" width="150">
                 <!-- Add an attribute to <h1> to change the font  -->
                 <h1 class="orbitron-fancy">TigerGPT</h1>
 
@@ -77,7 +77,7 @@
     </div>
 
     <!-- Task 3 - Add to the end of the class attribute, the string 'mb-25'  -->
-    <div class="container p-2 card" id="input-area">
+    <div class="container p-2 card mb-25" id="input-area">
 
         <!-- Task 1 goes below this comment. Add the instruction block demonstrated.
          Use this text for the instruction steps (you can copy and paste them.)
@@ -85,6 +85,13 @@
               Step 2:Type in a question.
               Step 3:Press RETURN/ENTER or click Send.
         -->
+                      <div>
+          <ol>
+              <li>Step 1:Click in the field at the bottom.</li>
+              <li>Step 2:Type in a question.</li>
+              <li>Step 3:Press RETURN/ENTER or click Send.</li>
+          </ol>
+        </div>
         <div class="input-group">
                 <textarea class="form-control" id="user-input" placeholder=">>" oninput="autoGrow(this)"></textarea>
             <button id="send-button" class="btn btn-primary">Send</button>

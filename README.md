@@ -2,8 +2,13 @@
 
 This is a simple HTML UI that interact with Ollama server that is running locally. This repo is forked from Ollama-ui
 
-## Usage
+## Install Ollama in a Docker Container
+1. Download Docker Image ollama/ollama from the Docker Hub
+2. Configure the container to start with:
+    a. Port Mapping 11434
+    b. Variable: OLLAMA_ORIGINS to *
 
+## Usage
 ```
 git clone https://github.com/MAD-NTID/SVP-LLM-Web
 cd SVP-LLM-Web

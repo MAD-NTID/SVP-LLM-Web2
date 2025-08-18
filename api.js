@@ -25,7 +25,7 @@ if (typeof chrome !== "undefined" && chrome.runtime && chrome.runtime.id) {
 }
 
 
-var ollama_host = "http://129.21.220.95:11434"
+var ollama_host = "http://129.21.220.102:11434"
 if (!ollama_host){
   ollama_host = 'http://localhost:11434'
 } else {
